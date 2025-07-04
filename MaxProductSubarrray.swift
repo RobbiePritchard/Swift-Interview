@@ -25,7 +25,6 @@
 // -----------------------------------------------------------------------------
 
 func maxProduct(_ nums: [Int]) -> Int {
-    // TODO: implement
     guard let first = nums.first else { return 0 }
     var maxProduct = first
     var currentMaxProduct = first
